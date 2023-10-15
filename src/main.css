@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero {
-   @apply h-96 flex items-center fixed bg-white justify-center w-full top-0;
-
-   h1 {
-      @apply flex-grow;
-   }
+body {
+   @apply bg-gray-50
 }
 
 p {

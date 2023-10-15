@@ -6,9 +6,9 @@ type HomeCardProps = {
 
 const HomeCard = ({ post }: HomeCardProps) => {
    return (
-      <a href={post._id} className="flex flex-row mb-10 hover:underline">
-         <div className="w-full px-3 py-1">
-            <h1 className="text-xl font-semibold mb-3">{post.title}</h1>
+      <a href={post._id} className="flex flex-row hover:bg-white hover:shadow-md rounded-md transition-all duration-500">
+         <div className="w-full py-5 px-3">
+            <h1 className="text-xl font-semibold">{post.title}</h1>
          </div>
       </a>
    );

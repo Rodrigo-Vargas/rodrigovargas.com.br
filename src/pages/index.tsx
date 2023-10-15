@@ -8,9 +8,9 @@ type HomePageProps = {
 
 const HomePage = ({ posts }: HomePageProps) => {
    return (
-      <main>
+      <>
          <Hero />
-         <div className="container mt-96">
+         <div className="container mt-56 lg:mt-96">
             <div className="px-12">
                {posts.map((post, index) => {
                   return (
@@ -19,7 +19,7 @@ const HomePage = ({ posts }: HomePageProps) => {
                })}
             </div>
          </div>
-      </main>
+      </>
    );
 };
 
