@@ -1,5 +1,6 @@
-import "../main.css";
+import Hero from "../components/Hero";
 import { allPosts, Post } from "contentlayer/generated";
+import HomeCard from "../components/HomeCard";
 
 type HomePageProps = {
    posts: Post[];
@@ -7,27 +8,24 @@ type HomePageProps = {
 
 const HomePage = ({ posts }: HomePageProps) => {
    return (
-      <div className="container">
-         <div className="hero">
-            <h1 className="text-center text-7xl font-thin">Rodrigo Vargas</h1>
+      <main>
+         <Hero />
+         <div className="container mt-96">
+            <div className="px-12">
+               {posts.map((post, index) => {
+                  return (
+                     <HomeCard key={index} post={post} />
+                  );
+               })}
+            </div>
          </div>
-
-         {posts.map((post) => {
-            return (
-               <div>
-                  <h1 className="">{post.title}</h1>
-                  <div
-                     dangerouslySetInnerHTML={{ __html: post.body.html }}
-                  ></div>
-               </div>
-            );
-         })}
-      </div>
+      </main>
    );
 };
 
 export async function getStaticProps() {
-   const posts = allPosts;
+   const posts = allPosts.sort((a, b) => Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt)))
+  
    return {
       props: {
          posts,
