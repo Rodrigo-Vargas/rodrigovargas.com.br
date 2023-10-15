@@ -2,42 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-   @apply mx-auto pl-5 pr-5;
-}
-
-@media (min-width: 640px) {
-   .container {
-      max-width: 640px
-   }
-}
-
-@media (min-width: 768px) {
-   .container {
-      max-width: 768px
-   }
-}
-
-@media (min-width: 1024px) {
-   .container {
-      max-width: 1024px
-   }
-}
-
-@media (min-width: 1280px) {
-   .container {
-      max-width: 1280px
-   }
-}
-
-@media (min-width: 1536px) {
-   .container {
-      max-width: 1536px
-   }
-}
-
 .hero {
-   @apply h-screen flex items-center;
+   @apply h-96 flex items-center fixed bg-white justify-center w-full top-0;
 
    h1 {
       @apply flex-grow;
