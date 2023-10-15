@@ -10,19 +10,24 @@ We will start updating the apt repository and installing all packages of distro
 
 
 ```bash
-  sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 
 After that we will set the environment variable WSL_HOST to be able to access webservers inside the wsl container
 
+```bash
 export WSL_HOST=$(tail -1 /etc/resolv.conf | cut -d' ' -f2) >> .bashrc
+```
 
 ## Installing ASDF
 
 Install asdf dependencies
 
+```bash
 apt install curl git
+```
 
+Setup auto complete
 
 ```bash
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc

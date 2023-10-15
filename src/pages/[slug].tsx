@@ -1,13 +1,19 @@
 import { Post, allPosts } from "contentlayer/generated";
+import hljs from "highlight.js";
+import { useEffect } from "react";
 
 type BlogDetailPageProps = {
    post: Post;
 }
 
 const BlogDetailPage = ({ post }: BlogDetailPageProps) => {
+   useEffect(() => {
+      hljs.highlightAll();
+   }, []);
+
    return (
-      <div className="container">
-         <h1 className="text-center my-10 text-5xl">{post.title}</h1>
+      <div className="container post">
+         <h1 className="text-center my-10 text-5xl font-extralight">{post.title}</h1>
          <div dangerouslySetInnerHTML={{ __html: post.body.html }}></div>
       </div>
    )

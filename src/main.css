@@ -9,3 +9,12 @@ body {
 p {
    @apply mb-5
 }
+
+
+.post h2 {
+   @apply text-lg font-bold my-5
+}
+
+.post pre {
+   @apply mb-5
+}
