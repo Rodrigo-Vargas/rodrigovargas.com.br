@@ -1,6 +1,6 @@
 ---
    categories: [elixir]
-   date: '2022-05-07'
+   publishedAt: '2022-05-07'
    excerpt:
    locale: en
    title: Setup a Elixir Development Environment on local nachine

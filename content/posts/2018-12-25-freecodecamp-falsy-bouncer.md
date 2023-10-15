@@ -1,7 +1,7 @@
 ---
-   date: '2018-12-25'
    excerpt: My solution to that algorhytm
    locale: en
+   publishedAt: '2018-12-25'
    title: FreeCodeCamp Falsy Bouncer Algorhytm
 ---
 

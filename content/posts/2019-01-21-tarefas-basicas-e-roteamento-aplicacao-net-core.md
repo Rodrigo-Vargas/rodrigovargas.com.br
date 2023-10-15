@@ -2,8 +2,7 @@
    categories:
       - net-core
       - mvc
-   cover_url: pt/tarefas-basicas-e-roteamento.png
-   date: '2019-01-21'
+   publishedAt: '2019-01-21'
    excerpt: Primeiros passos para entender o funcionamento de uma aplicação MVC .Net Core
    locale: pt
    title: Tarefas Básicas e Roteamento em uma aplicação .Net Core

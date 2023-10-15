@@ -2,8 +2,7 @@
    categories:
       - entity-framework
       - net-core
-   cover_url: pt/trabalhando-com-migrations.png
-   date: '2019-02-11'
+   publishedAt: '2019-02-11'
    excerpt: Utilizando o Entity Framework, vamos configurar um banco de dados em uma aplicação .NET Core MVC
    locale: pt
    title: Migrations em um aplicação .NET Core MVC

@@ -1,9 +1,8 @@
 ---
    categories: [fitness, personal]
-   cover_url: "my-first-5k.jpg"
-   date: '2020-02-16'
    excerpt: Minha primeira corrida amadora
    locale: pt
+   publishedAt: '2020-02-16'
    title: Meus primeiros 5K
 ---
 

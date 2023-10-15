@@ -1,11 +1,10 @@
 ---
    categories: [react]
-   cover_url: "configuring-react.png"
-   date: '2020-01-20'
    excerpt: Como criar uma aplicação React do zero e entendendo os conceitos por trás dessa biblioteca
    locale: pt
+   publishedAt: '2020-01-20'
    title: Configurando uma aplicação React
-   update_date: '2020-02-02'
+   updatedAt: '2020-02-02'
 ---
 
 Olá pessoal, este post será o primeiro de uma série de posts onde iremos construir uma aplicação React do zero, passando por vários conceitos comuns a muitas aplicações, e que serão úteis para vocês construirem os mais diversos aplicativos.

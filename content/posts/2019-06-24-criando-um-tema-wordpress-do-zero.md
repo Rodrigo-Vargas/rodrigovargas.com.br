@@ -1,9 +1,8 @@
 ---
   categories: [wordpress]
-  date: '2019-06-24'
   excerpt: Criando um tema WordPress do zero
-  cover_url: "getting-started-wp-theme.png"
   locale: pt
+  publishedAt: '2019-06-24'
   title: Criando um tema WordPress do zero
 ---
 
@@ -16,7 +15,7 @@ Hoje iniciaremos uma série de posts que visa no final criar um tema WordPress q
 Neste post, iremos explorar os arquivos básicos que um tema do WordPress necessita para funcionar, além dos próximos passos que virão.
 
 ## Nomeando o nosso tema
-
+  
 Antes de começar, vamos definir que o nosso tema terá um propósito, um público-alvo. Isso não irá necessariamente influenciar no aprendizado técnico, mas nos dará um norte para pensarmos em cases bacanas onde iremos aplicar os conceitos do desenvolvimento de um tema customizado para WordPress. Incentivo vocês a criarem um objetivo para o tema de vocês, assim vocês podem aplicar os conceitos que exploraremos aqui em outras finalidades.
 
 Dito isso, o primeiro passo será criar um nome para o tema. Achei no Google este site bacana chamado <a href="https://namelix.com/">namelix.com</a>, que me ajudará com a criação do nome para o tema. Basta jogar algumas <em>brand words</em> nele e pronto, temos o nosso do nosso tema, que será **uphealth**.

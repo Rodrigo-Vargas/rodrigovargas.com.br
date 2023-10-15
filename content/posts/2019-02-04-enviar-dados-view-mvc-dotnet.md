@@ -2,7 +2,7 @@
     categories:
         - razor
         - net-core
-    date: '2019-02-04'
+    publishedAt: '2019-02-04'
     excerpt: Avançando no aprendizado do MVC, confira como enviar dados de controller para uma view em uma aplicação .Net Core MVC
     locale: pt
     title: Enviando dados para views em uma aplicação .NET Core MVC
