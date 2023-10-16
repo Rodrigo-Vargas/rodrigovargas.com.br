@@ -2,7 +2,7 @@
    "private": true,
    "name": "rodrigo-vargas-website",
    "scripts": {
-      "build": "next build",
+      "build": "contentlayer build && next build",
       "dev": "next dev",
       "lint": "next lint"
    },
