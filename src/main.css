@@ -18,3 +18,11 @@ p {
 .post pre {
    @apply mb-5
 }
+
+.post ul {
+   @apply mb-10 list-disc
+}
+
+.post li {
+   @apply ml-5
+}
