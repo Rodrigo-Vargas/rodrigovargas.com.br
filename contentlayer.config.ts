@@ -9,8 +9,11 @@ export const Post = defineDocumentType(() => ({
       locale: { type: 'string', required: false },
       publishedAt: { type: 'date', required: true },
       title: { type: 'string', required: true },
-      updatedAt: { type: 'date', required: false}
+      updatedAt: { type: 'date', required: false },
    },
+   computedFields: {
+      url: { type: 'string', resolve: (post) => `/${post._raw.flattenedPath}` },
+    },
 }))
 
 

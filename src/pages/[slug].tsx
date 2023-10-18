@@ -20,7 +20,7 @@ const BlogDetailPage = ({ post }: BlogDetailPageProps) => {
 };
 
 export async function getStaticProps({ params }) {
-   const post = allPosts.find((post) => (post._id === params.slug));
+   const post = allPosts.find((post) => (post._raw.flattenedPath  === params.slug));
    return { props: { post } };
 }
 
@@ -28,7 +28,7 @@ export const getStaticPaths = () => {
    return {
       paths: [
          ...allPosts.map(post => ({
-            params: { slug: post._id }
+            params: { slug: post._raw.flattenedPath }
          }))
       ],
       fallback: false
