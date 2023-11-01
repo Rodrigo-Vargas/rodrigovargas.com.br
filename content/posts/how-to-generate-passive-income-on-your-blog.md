@@ -1,6 +1,5 @@
 ---
-   date: "2023-10-25"
-   publishetAt: "2023-10-25"
+   publishedAt: "2023-10-25"
    excerpt: "Generate some income it's always, check some ways you can do it right away"
    title: "How to generate passive income on your blog"
 ---
