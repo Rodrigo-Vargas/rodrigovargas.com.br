@@ -1,7 +1,7 @@
 ---
    excerpt: Continuing our last post regarding passive incomes ideas, last talk about advertisement
    publishedAt: 2023-11-01
-   title: How to increase blog traffic through advertisement
+   title: How to generate income from blog through advertisement
 ---
 
 Advertisements are the quickest way to start making some money from your blog. Usually, you just need to integrate into your site a snippet from an AD network, pass for a simple review process and you are good to go. Most of the AD networks also have some sort of dashboard where you can check your earnings and strategies about how to increase your income. But as Rocky already told us, The world ain't all sunshine and rainbows, so let’s dive into the pros and cons of using advertisements on your blog.
