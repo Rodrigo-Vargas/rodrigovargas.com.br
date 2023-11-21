@@ -30,3 +30,15 @@ p {
 .post li {
    @apply ml-5
 }
+
+.post blockquote {
+   @apply bg-gray-100 p-5
+}
+
+.post blockquote p {
+   @apply mb-0
+}
+
+.post img {
+   @apply mx-auto
+}
