@@ -1,5 +1,5 @@
 ---
-   excerpt: Come with building a forum in Rails using many features of this amazing framework
+   excerpt: Come with me in this journey building a forum in Rails using many features of this amazing framework
    publishedAt: "2023-11-21"
    title: Building a forum with Rails and TDD - Initial Setup
 ---
