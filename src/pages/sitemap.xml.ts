@@ -1,7 +1,5 @@
 import { allPosts } from "contentlayer/generated";
 
-const EXTERNAL_DATA_URL = 'https://rodrigovargas.com.br';
-
 function generateSiteMap(posts) {
    return `<?xml version="1.0" encoding="UTF-8"?>
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -13,7 +11,10 @@ function generateSiteMap(posts) {
          .map((post) => {
             return `
        <url>
-           <loc>${`${EXTERNAL_DATA_URL}/${post._raw.flattenedPath}`}</loc>
+           <loc>https://rodrigovargas.com.br/${post._raw.flattenedPath}}</loc>
+       </url>
+       <url>
+           <loc>https://www.rodrigovargas.com.br/${post._raw.flattenedPath}}</loc>
        </url>
      `;
          })
