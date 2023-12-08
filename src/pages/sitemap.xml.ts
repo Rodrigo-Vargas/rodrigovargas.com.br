@@ -11,10 +11,7 @@ function generateSiteMap(posts) {
          .map((post) => {
             return `
        <url>
-           <loc>https://rodrigovargas.com.br/${post._raw.flattenedPath}}</loc>
-       </url>
-       <url>
-           <loc>https://www.rodrigovargas.com.br/${post._raw.flattenedPath}}</loc>
+           <loc>https://www.rodrigovargas.com.br/${post._raw.flattenedPath}</loc>
        </url>
      `;
          })
