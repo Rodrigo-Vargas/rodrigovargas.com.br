@@ -1,7 +1,7 @@
 import { Post, allPosts } from "contentlayer/generated";
 import hljs from "highlight.js";
 import { useEffect } from "react";
-import Head from 'next/head';
+import BlogPostTemplate from "src/templates/BlogPost";
 
 type BlogDetailPageProps = {
   post: Post;
@@ -13,17 +13,7 @@ const BlogDetailPage = ({ post }: BlogDetailPageProps) => {
   }, []);
 
   return (
-    <>
-      <Head>
-         <title>Rodrigo Vargas - {post.title}</title>
-      </Head>
-      <div className="container post">
-        <h1 className="text-center my-10 text-5xl font-extralight">
-          {post.title}
-        </h1>
-        <div dangerouslySetInnerHTML={{ __html: post.body.html }}></div>
-      </div>
-    </>
+    <BlogPostTemplate post={post}/>
   );
 };
 

@@ -20,6 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Rodrigo Vargas</title>
         <link rel="canonical" href={canonicalUrl} />
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Head>
       <main className={poppins.className}>
         <Component {...pageProps} />

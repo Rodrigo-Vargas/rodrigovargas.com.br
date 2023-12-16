@@ -210,7 +210,7 @@ test "an_authenticated_user_can_add_a_reply_in_a_forum_thread" do
 And running it, we should see an error message:
 
 ```html
-ForumThreadsControllerTest#test_an_authenticated_user_can_add_a_reply_in_a_forum_thread [/home/rodrigo/code/forum/test/controllers/forum_threads_controller_test.rb:48]:
+ForumThreadsControllerTest#test_an_authenticated_user_can_add_a_reply_in_a_forum_thread
 --- expected
 +++ actual
 @@ -1 +1 @@
