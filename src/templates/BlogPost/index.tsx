@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
 
 const BlogPostTemplate = ({post}) => {
    return (
@@ -8,12 +10,12 @@ const BlogPostTemplate = ({post}) => {
          </Head>
          <div className="container py-10">
 
-            <a href="/" className="meta d-block">
+            <Link href="/" className="meta d-block">
                <div className="w-24 h-24 mx-auto rounded-full overflow-hidden">
-                  <img src="/images/avatar.jpg" />
+                  <Image src="/images/avatar.jpg" alt="Author's Avatar" width={500} height={500} />
                </div>
                <p className="text-center py-5 text-lg tracking-wide">RODRIGO VARGAS</p>
-            </a>
+            </Link>
 
             <div className="post">
                <h1 className="text-center my-10 text-4xl font-extralight">
