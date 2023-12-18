@@ -7,6 +7,10 @@ const BlogPostTemplate = ({post}) => {
       <>
          <Head>
             <title>Rodrigo Vargas - {post.title}</title>
+            <meta name="og:title" content={post.title} />
+
+            <meta name="description" content={post.excerpt} />
+            <meta name="og:description" content={post.excerpt} />
          </Head>
          <div className="container py-10">
 
