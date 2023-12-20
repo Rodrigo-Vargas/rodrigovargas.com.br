@@ -12,6 +12,8 @@ function generateSiteMap(posts) {
             return `
        <url>
            <loc>https://www.rodrigovargas.com.br/${post._raw.flattenedPath}</loc>
+           <changefreq>daily</changefreq>
+           <priority>0.7</priority>
        </url>
      `;
          })
