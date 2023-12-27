@@ -99,7 +99,9 @@ The next one to be changed is the replies section partial:
       <div class="text-sm">
          <a class="text-blue-500" href=""><%= reply.user.email %></a> said <span class="text-gray-400"><%= reply.created_at_for_humans %></span>
       </div>
-      <p class="reply-body"><%= reply.body %></p>
+      <div class="text-gray-700">
+         <p class="reply-body"><%= reply.body %></p>
+      </div>
    </div>
 <% end %>
 ```
