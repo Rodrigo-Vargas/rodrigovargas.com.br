@@ -14,7 +14,7 @@ First of all, let’s follow the instructions that we can find on the *[Devise G
 
 After user configuration is done,  the next step should be to create the ActiveRecord user model itself through the command `rails generate devise User`, and the command *rails db:migrate*, to apply the changes into your database. Checking our database through the SQLite explorer, we can see the table newly generated user table.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a9a16cc-042d-49a2-90ef-a6c0a3a16b1e/38b6984a-2352-498c-baef-d744c11e6abd/Untitled.png)
+![A screenshot showing the users table and its columns on SQLite explorer in VSCode](/images/posts/building-a-forum-with-rails-and-tdd-test-driving-threads/users-table.png)
 
 To finish the users’ setup, we are going to add some data seeding into the file **********seeds.rb********** using *Faker* to generate some unique users for us:
 
@@ -138,7 +138,7 @@ And we are good to go. The code is pretty simple, we are just getting a list of 
 
 Now, we can also check our page in a browser, just running the application locally and accessing http://localhost:3000/forum_threads:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a9a16cc-042d-49a2-90ef-a6c0a3a16b1e/583f8f14-10c8-4502-ac19-a79cca4d24bc/Untitled.png)
+![A basic HTML page showing four test threads, with title and a short description](/images/posts/building-a-forum-with-rails-and-tdd-test-driving-threads/forum-threads-list-page.png)
 
 ## Writing a test that assesses content on a page
 
