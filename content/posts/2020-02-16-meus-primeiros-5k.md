@@ -6,11 +6,11 @@
    title: Meus primeiros 5K
 ---
 
-[last-training]: /images/5k/last-training.jpg 'Pace médio da corrida'
-[run-pace]: /images/5k/run-pace.png 'Pace médio da corrida'
-[run-start]: /images/5k/run-start.jpg 'Chegada ao evento'
-[run-finish]: /images/5k/run-finish.jpg 'Linha de chegada com a medalha'
-[final-results]: /images/5k/final-results.png 'Linha de chegada com a medalha'
+[last-training]: /images/posts/5k/last-training.jpg 'Pace médio da corrida'
+[run-pace]: /images/posts/5k/run-pace.png 'Pace médio da corrida'
+[run-start]: /images/posts/5k/run-start.jpg 'Chegada ao evento'
+[run-finish]: /images/posts/5k/run-finish.jpg 'Linha de chegada com a medalha'
+[final-results]: /images/posts/5k/final-results.png 'Linha de chegada com a medalha'
 
 Seguindo a idéia do blog [Impossible](https://impossiblehq.com/blog/), resolvi fazer uma ["impossible list"](/impossible-list) para me manter motivado a sair da zona de conforto e fazer muitas coisas que eu gostaria de fazer, mas não tinha a motivação apropriada.
 
