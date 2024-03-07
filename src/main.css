@@ -46,3 +46,26 @@ p {
 .container {
    @apply px-10
 }
+.title {
+   @apply text-blue-500 text-4xl pt-10 pb-0 mb-0
+}
+
+.subtitle {
+   @apply text-gray-500 text-lg mb-5
+}
+
+.meta {
+   @apply text-gray-500 text-xs ml-3 mr-2
+}
+
+.section-title {
+   @apply text-blue-500 text-xl font-light mb-5
+}
+
+.subsection-title {
+   @apply text-gray-800 text-xs
+}
+
+.subsection-description {
+   @apply text-gray-400 text-xs font-light mb-5
+}
