@@ -10,7 +10,7 @@ const Experience = ({data}) => (
             <span className="text-gray-400">@ {item.company}</span>
           </div>
           <div>
-            <span className="text-gray-400 text-sm">{item.period} // </span>
+            <span className="text-gray-400 text-sm">{item.period} {"//"} </span>
             <span className="text-gray-400 text-sm">{item.location}</span>
           </div>
           <ul className="text-gray-500 mt-0 ml-2 pl-0">
