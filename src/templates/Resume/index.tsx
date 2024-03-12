@@ -1,4 +1,4 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faGlobe,
@@ -29,7 +29,8 @@ export type ResumeInfoType = {
   email: string;
   phone: string;
   website: string;
-  github: string;
+  github?: string;
+  linkedin: string;
   experiences: ExperienceType[];
   projects: ProjectType[];
   skills: ProjectType[];
@@ -52,17 +53,17 @@ const ResumeTemplate = ({ data }: ResumeTemplateProps) => {
 
         <div className="flex flex-row w-7/12 justify-end">
           <div>
-            <div>
+            <div className="flex mb-5">
               <FontAwesomeIcon
-                className="text-blue-500 text-sm"
+                className="text-blue-500 h-4 w-4"
                 icon={faEnvelope}
               />
               <span className="meta">{data.email}</span>
             </div>
 
-            <div>
+            <div className="flex mb-5">
               <FontAwesomeIcon
-                className="text-blue-500 text-sm"
+                className="text-blue-500 h-4 w-4"
                 icon={faGlobe}
               />
               <span className="meta">{data.website}</span>
@@ -70,36 +71,36 @@ const ResumeTemplate = ({ data }: ResumeTemplateProps) => {
           </div>
 
           <div>
-            <div>
+            <div className="flex mb-5">
               <FontAwesomeIcon
-                className="text-blue-500 text-sm"
+                className="text-blue-500 h-4 w-4"
                 icon={faPhone}
               />
               <span className="meta">{data.phone}</span>
             </div>
 
-            <div>
+            <div className="flex mb-5">
               <FontAwesomeIcon
-                className="text-blue-500 text-sm"
-                icon={faGithub}
+                className="text-blue-500 h-4 w-4"
+                icon={faLinkedin}
               />
-              <span className="meta">{data.github}</span>
+              <span className="meta">{data.linkedin}</span>
             </div>
           </div>
         </div>
       </div>
 
       <div className="flex flex-row">
-        <div className="w-2/3 pr-5">
+        <div className="w-9/12 pr-5">
           <Experience data={data} />
         </div>
 
-        <div className="w-1/3">
+        <div className="w-3/12">
           <Skill data={data} />
 
-          <Education data={data} />
-
           <Projects data={data} />
+
+          <Education data={data} />
 
           <div>
             <h2 className="section-title">Interests</h2>

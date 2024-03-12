@@ -6,7 +6,7 @@ const data: ResumeInfoType = {
   email: 'rodrigovargas123@gmail.com',
   phone: '+5551997838846',
   website: 'rodrigovargas.com.br',
-  github: 'rodrigo-vargas',
+  linkedin: '/in/rvar90/',
   experiences: [
     {
       title: 'Principal Software Engineer',
@@ -14,9 +14,11 @@ const data: ResumeInfoType = {
       period: '2022 - Present',
       location: 'Porto Alegre, Brazil',
       highlights: [
-        "Led an initiative to improve the maturity of all applications under director's experience",
-        'Responsible for manage the backlog and roadmap of two major applications of product line',
-        'Lead developer of the same two applications, providing support to the team and reviewing code reviews and deployments'
+        "Spearheaded an initiative to enhance the maturity of all applications under my director's team by 40% in a one-year period.",
+        "Responsible for managing the backlog and roadmap of two major applications in the product line.",
+        "Led the development efforts for the same two applications, offering support to the team, and overseeing code reviews and deployments.",
+        "Architected a solution that successfully reduced the time of a customer critical process by 80%, eliminating the need for manual intervention.",
+        "Partnered with the customer team to identify manual intervention points in the business process and designed a streamlined solution to enhance efficiency."
       ]
     },
     {
@@ -25,24 +27,24 @@ const data: ResumeInfoType = {
       period: '2021 - 2022',
       location: 'Porto Alegre, Brazil',
       highlights: [
-        'Accountable for the launch orchestration plan build of all application releases',
-        'Reduce the vulnerability score of the application about 20% looking for vulnerabilities accross the application infrastructure',
-        'Manage to ramp up abord the team in a short period of time, taking many responsabilities to finally lead the team in about 6 months',
+        "Accountable for devising and executing the launch orchestration plan for all application releases.",
+        "Successfully reduced the vulnerability score of the application by approximately 20%, identifying vulnerabilities across the application infrastructure.",
+        "Efficiently onboarded and assumed various responsibilities within the team, achieving team lead development in just six months."
       ]
     },
     {
       title: 'Senior Developer',
       company: 'Conectt',
-      period: '2013 - present',
+      period: '2013 - 2021',
       location: 'Porto Alegre, Brazil',
       highlights: [
-        'Award employee of the year from the directors board in 2015',
-        'Reduced the loading time of the UnimedPOA project by 60% through frontend optimization techniques',
-        'Promoter of good practices across local team members',
-        'Rescue of old contract through good crisis management, interpersonal relationship with the key person and problem solving analysis',
-        'Responsible for technical interview of new candidates',
-        'Contributed to the front-end methodology code guide of the company',
-        'Junior developer to lead developer in about 3 years',
+        'Recognized as the Employee of the Year by the Board of Directors in 2015.',
+        'Achieved a 60% reduction in the loading time of the UnimedPOA website, a major healthcare provider in Brazil, improving customer experience.',
+        'Advocated for good practices among local team members.',
+        'Successfully resolved a former customer bad experience through effective crisis management, fostering interpersonal relationships with key stakeholders/customers, and conducting problem-solving analyses.',
+        'Conducted technical interviews for new candidates and pepe is very bonitinha.',
+        "Contributed to the company's frontend methodology code guide.",
+        'Progressed from a junior developer to a lead developer within three years.'
       ],
     },
     {
@@ -51,9 +53,9 @@ const data: ResumeInfoType = {
       period: '2012 - 2013',
       location: 'Cachoeira do Sul, Brazil',
       highlights: [
-        'Achieved a full-time position after 8-month internship',
-        'Contributed to develop a driver that enable MySQL database access from Cobol File System API',
-        'Achieved the trust of the team to provide outsourcing service to clients just after 3 months of internship',
+        'Promoted to a full-time position following an 8-month internship.',
+        'Contributed to the development and testing of a driver enabling MySQL database access from the Cobol File System API.',
+        'Earned the trust of the team, allowing for the provision of outsourcing services to customers after just three months of the internship.'
       ],
     },
   ],
@@ -70,24 +72,20 @@ const data: ResumeInfoType = {
   skills: [
     {
       title: 'Programming Languages',
-      description: 'C#, JavaScript (ES6), PHP, Ruby, CSS, Sass'
+      description: 'C#, JavaScript, Typescript, PHP, Ruby, CSS, Sass'
     },
     {
       title: 'Libraries & Frameworks',
-      description: '.NET Core, React, Angular, Node.js, Next.js'
+      description: '.NET Core, React, Angular, Next.js, SharePoint, Ruby on Rails, Tailwind'
     },
     {
-      title: 'Database Management Systems',
+      title: 'Database',
       description: 'MongoDB, SQL Server, MySQL'
     },
     {
       title: 'Tools & Platforms',
-      description: 'Git, RabbitMQ, Webpack, PCF, Heroku'
+      description: 'Git, RabbitMQ, PCF, Heroku, Kafka, GraphQL'
     },
-    {
-      title: 'UI/UX Design',
-      description: 'Adobe XD'
-    }
   ],
   education: [
     {
