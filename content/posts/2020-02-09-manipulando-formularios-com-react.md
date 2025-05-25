@@ -76,7 +76,7 @@ Após salvar e atualizar a página, ao digitar algum valor nas caixas de texto, 
 
 > Cannot read property 'setState' of undefined
 
-Isso acontece porque o contexto que o método onChange está sendo chamado, não é o mesmo contexto do componente que instanciamos no React. Caso tenha interesse em saber porque isso acontece com mais detalhes, recomendo que leia [este post](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/){:_target_="\_blank"}
+Isso acontece porque o contexto que o método onChange está sendo chamado, não é o mesmo contexto do componente que instanciamos no React. Caso tenha interesse em saber porque isso acontece com mais detalhes, recomendo que leia [este post](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/)
 
 Para solucionar o problema, iremos utilizar o método _bind_ do JavaScript, associando os métodos "onChange" que criamos, com o contexto da classe do componente _Form_.
 

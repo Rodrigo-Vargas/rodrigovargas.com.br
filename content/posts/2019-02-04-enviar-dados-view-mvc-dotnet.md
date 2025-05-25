@@ -44,7 +44,7 @@ E agora vamos modificar o arquivvos _Home/Index.cshtml_ para ler a descrição q
 <p>@Model</p>
 ```
 
-Note a adição de duas linhas, a primeira que seria _@model string_. Aqui definiremos o tipo que nosso model representa, como o mesmo é apenas uma string definimos como _@model string_, caso o mesmo fosse um array, por exemplo, poderíamos defini-lo como @model List<string>.
+Note a adição de duas linhas, a primeira que seria _@model string_. Aqui definiremos o tipo que nosso model representa, como o mesmo é apenas uma string definimos como _@model string_, caso o mesmo fosse um array, por exemplo, poderíamos defini-lo como @model List\<string\>.
 
 Abaixo temos a varíavel _@Model_. Esta representa o nosso model de dados, e é disponibilizada automaticamente pelo framework, sem a necessidade de declararmos a mesma.
 

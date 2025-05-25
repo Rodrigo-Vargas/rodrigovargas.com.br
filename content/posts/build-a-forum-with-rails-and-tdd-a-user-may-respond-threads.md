@@ -100,7 +100,7 @@ And the file *forum_thread.yml*:
 <% end %>
 ```
 
-Also, notice that I used this magical value *user_<%= n %>*, which is a reference to the file ******************fixtures/users.yml******************, where is defined the name of users as an object key. Great, the seeding work is complete, now we can run the tests and make sure that everything is good.
+Also, notice that I used this magical value `<% user_<%= n %> %>`, which is a reference to the file **fixtures/users.yml**, where the names of users are defined as object keys. Great, the seeding work is complete, now we can run the tests and make sure that everything is good.
 
 Moving on, let`s create a new test inside the file *test/controllers/forum_threads_controller_test.rb* to check if a given thread has a creator:
 

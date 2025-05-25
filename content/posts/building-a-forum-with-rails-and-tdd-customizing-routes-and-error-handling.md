@@ -9,7 +9,7 @@ Hey everyone, Rodrigo here. Continuing our build a forum with Rails series, in t
 
 ## Customizing an entity path
 
-Let’s begin writing a new test to check if the URL of a thread is in the format */threads/<channel_name>/<thread_id>*:
+Let's begin writing a new test to check if the URL of a thread is in the format ```ruby/threads/<channel_name>/<thread_id>```:
 
 ```ruby
 test "a thread has a url with a channel" do
@@ -19,7 +19,7 @@ end
 
 This is a basic test, just comparing two strings, which we are checking if the string returned by the ****************forum_thread_url**************** is indeed the format that we are expecting. Note that we are also prepending *http://www.example.com*, which is something that rails added by default in URLs of the development environment.
 
-If we run our tests now they should fail because the format of URL is still */forum_threads/<forum_id>,* so let’s tweak a bit the file *routes.rb*:
+If we run our tests now they should fail because the format of URL is still ```/forum_threads/<forum_id>,``` so let’s tweak a bit the file *routes.rb*:
 
 ```ruby
 Rails.application.routes.draw do

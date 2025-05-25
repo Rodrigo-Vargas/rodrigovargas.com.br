@@ -11,7 +11,7 @@ Olá pessoal, este post será o primeiro de uma série de posts onde iremos cons
 
 ## Instalando o node.js e gerando um novo NPM package
 
-O primeiro passo, será instalar o node.js na sua máquina de dev, que pode ser baixado de diferentes maneiras, dependendo do seu sistema operacional. Eu recomendo utilizar o NVM, independentemente do seu SO, eu estou desenvolvendo em um ambiente Windows, e a versão para o mesmo pode ser baixada [aqui](https://github.com/coreybutler/nvm-windows){:_target_="\_blank"}
+O primeiro passo, será instalar o node.js na sua máquina de dev, que pode ser baixado de diferentes maneiras, dependendo do seu sistema operacional. Eu recomendo utilizar o NVM, independentemente do seu SO, eu estou desenvolvendo em um ambiente Windows, e a versão para o mesmo pode ser baixada [aqui](https://github.com/coreybutler/nvm-windows)
 
 Instalado o NPM, vamos criar um diretório com o nome da aplicação, e de dentro dele executar o comando:
 
@@ -40,7 +40,7 @@ Após executado, um arquivo chamado _package.json_ será criado na pasta do proj
 
 Para iniciar uma aplicação React, nós temos duas maneiras:
 
-- Utilizar o [React create app](https://github.com/facebook/create-react-app){:target="\_blank"}: este é um boilerplate que já nos trás todo o ferramental já configurado para uma aplicação React, incluindo, testes e a parte de publicação. É uma excelente opção, e eu recomendo que você experimente.
+- Utilizar o [React create app](https://github.com/facebook/create-react-app) este é um boilerplate que já nos trás todo o ferramental já configurado para uma aplicação React, incluindo, testes e a parte de publicação. É uma excelente opção, e eu recomendo que você experimente.
 - A segunda forma, seria instalar todos os pacotes do início. Eu vou adotar esta estratégia nesta série, porque acho interessante saber como tudo funciona debaixo dos panos.
 
 **Caso você não queira ler todo o artigo para saber quais os pacotes, pode executar o seguinte comando:**
@@ -63,7 +63,7 @@ npm install react react-dom --save-dev
 
 ## Instalando o webpack e seus utilitários
 
-React instalado, precisaremos de algo que faça a transpilação do javascript que escrevemos em um formato onde o browser poderá ler. Para isso utilizaremos o [webpack](https://webpack.js.org/){:target="\_blank"}.
+React instalado, precisaremos de algo que faça a transpilação do javascript que escrevemos em um formato onde o browser poderá ler. Para isso utilizaremos o [webpack](https://webpack.js.org/).
 
 O Webpack é um _module bundler_, ou seja, é um utilitário que irá analisar todo o nosso código, e realizar o _bundle_, que são todas as tarefas de transpilação, minificação e demais tarefas relacionadas a possibilitar que o arquivo seja servido em páginas HTML que serão lidas pelas browsers. Os pacotes relacionados ao webpack são o **webpack** propriamente dito, e o **webpack-cli**, que é o utilitário de linha de comando do webpack.
 
@@ -99,7 +99,7 @@ Este arquivo conterá algumas informações, como qual arquivo o Webpack deverá
 
 Apesar de não ser obrigatório, eu recomendo que você utilize o formato JSX para o desenvolvimento em React. O JSX é um formato de escrever Javascript desenvolvido pelo Facebook, e que nos permite escrever um código que é mais aderente a componentes, com hierarquia, semelhante a um XML. Nos próximos posts, você entenderá melhor o que isso quer dizer.
 
-Por hora, basta aprendermos que para escrever com JSX, precisaremos que o mesmo seja traduzido para JS no final de tudo, pois é assim que os browsers irão poder entender e rodar nossa aplicação. Neste ponto que entra o [**BabelJS**](https://babeljs.io/){:_target_="\_blank"}, um compilador JavaScript.
+Por hora, basta aprendermos que para escrever com JSX, precisaremos que o mesmo seja traduzido para JS no final de tudo, pois é assim que os browsers irão poder entender e rodar nossa aplicação. Neste ponto que entra o [**BabelJS**](https://babeljs.io/), um compilador JavaScript.
 
 Para que o Webpack possa utilizar o Babel, precisaremos entender um novo conceito do Webpack, os **loaders**. Os loaders nada mais são, que pacotes do NPM que dizem ao Webpack como tratar cada arquivo. Deste modo, possuímos loaders para JSX, para SCSS, para imagens, e outros diversos casos.
 
@@ -141,9 +141,9 @@ O Babel conta com vários presets, que são configurações específicas para ca
 
 ## Adicionando suporte a SASS
 
-Como a nossa aplicação irá utilizar SASS/SCSS para o desenvolvimento do CSS, precisaremos de um loader para estes arquivos, assim como instalamos o _babel-loader_ para os arquivos JSX. No caso do SASS este loader se chama [**sass-loader**](https://github.com/webpack-contrib/sass-loader){:_target_="\_blank"}. Para que este loader funcione corretamente, precisaremos que um pré-compilador de SASS seja instalado também. A documentação deste plugin recomendado o Node Sass ou o Dart Sass, utilizaremos o primeiro neste projeto.
+Como a nossa aplicação irá utilizar SASS/SCSS para o desenvolvimento do CSS, precisaremos de um loader para estes arquivos, assim como instalamos o _babel-loader_ para os arquivos JSX. No caso do SASS este loader se chama [**sass-loader**](https://github.com/webpack-contrib/sass-loader). Para que este loader funcione corretamente, precisaremos que um pré-compilador de SASS seja instalado também. A documentação deste plugin recomendado o Node Sass ou o Dart Sass, utilizaremos o primeiro neste projeto.
 
-Por fim, para facilitar o desenvolvimento, instalaremos mais dois loaders relacionados a CSS que são o [css-loader](https://github.com/webpack-contrib/css-loader){:_target_="\_blank"} e o [style-loader](https://github.com/webpack-contrib/style-loader){:_target_="\_blank"}, para que o nosso arquivo CSS gerado seja imediatamente aplicado ao DOM, agilizando a visualização do resultado do que estamos desenvolvendo. Todos estes pacotes podem ser instalados com o comando abaixo:
+Por fim, para facilitar o desenvolvimento, instalaremos mais dois loaders relacionados a CSS que são o [css-loader](https://github.com/webpack-contrib/css-loader) e o [style-loader](https://github.com/webpack-contrib/style-loader), para que o nosso arquivo CSS gerado seja imediatamente aplicado ao DOM, agilizando a visualização do resultado do que estamos desenvolvendo. Todos estes pacotes podem ser instalados com o comando abaixo:
 
 ```bash
 npm install node-sass sass-loader css-loader style-loader --save-dev
@@ -171,6 +171,6 @@ module: {
 },
 ```
 
-Ufa, enfim terminamos! É bastante coisa para iniciar um projeto, mas veja por outro lado, este esforço será feito uma única vez no projeto e aumentará a sua produtividade daqui para a frente. Toda esta aplicação está disponível no GitHub para consultar, [dê uma olhada lá](https://github.com/Rodrigo-Vargas/bills-hub){:_target_="\_blank"}
+Ufa, enfim terminamos! É bastante coisa para iniciar um projeto, mas veja por outro lado, este esforço será feito uma única vez no projeto e aumentará a sua produtividade daqui para a frente. Toda esta aplicação está disponível no GitHub para consultar, [dê uma olhada lá](https://github.com/Rodrigo-Vargas/bills-hub)
 
 Com o ambiente configurado, podemos então começar a desenvolver uma aplicação React. No [próximo post](/blog/criando-estrutura-arquivos-aplicacao-react), iremos ver como o nosso projeto será estruturado, assim como algumas noções básicas da biblioteca React. Até logo!

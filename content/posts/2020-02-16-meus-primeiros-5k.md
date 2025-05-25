@@ -18,7 +18,7 @@ A primeira delas era correr uma maratona. Motivado pelos relatos do Joel Runyon,
 
 ## Treinamento
 
-Com o objetivo em mente, o próximo passo era se preparar. Faço academia a alguns anos, entre idas e vindas, então minha forma física não é ruim (peso em torno de 80kgs, com 1.82m), então acreditei que não seria muito díficil, mas eu não podia estar mais enganado. Como apenas foco no levantamento de peso, minha capacidade cardiovascular não era muito melhor que de um sedentário hahaha. Começei treinando na esteira, com um aplicativo para smartphone chamado [C10k](https://www.zenlabsfitness.com/){:_target_="\_blank"}, que vai te auxiliando na progressão de 0 para 5 KM ou 10KM com 3 treinos semanais. No início, treinava apenas aos sábados e domingos, mas passei a acordar mais cedo para conseguir os 3 treinos semanais.
+Com o objetivo em mente, o próximo passo era se preparar. Faço academia a alguns anos, entre idas e vindas, então minha forma física não é ruim (peso em torno de 80kgs, com 1.82m), então acreditei que não seria muito díficil, mas eu não podia estar mais enganado. Como apenas foco no levantamento de peso, minha capacidade cardiovascular não era muito melhor que de um sedentário hahaha. Começei treinando na esteira, com um aplicativo para smartphone chamado [C10k](https://www.zenlabsfitness.com/), que vai te auxiliando na progressão de 0 para 5 KM ou 10KM com 3 treinos semanais. No início, treinava apenas aos sábados e domingos, mas passei a acordar mais cedo para conseguir os 3 treinos semanais.
 
 Após alguns meses de treino, consegui chegar a marcar de correr 28 minutos ininterruptos, aproximadamente 4.4 KM, o que me deu confiança que terminaria a prova de 5 KM.
 

@@ -21,7 +21,7 @@ Sem mais conversa, vamos ao trabalho. Em um terminal, execute os comandos abaixo
    dotnet add package Pomelo.EntityFrameworkCore.MySql
 ```
 
-Perceba que neste caso, estamos configurando o EF para conectar com um banco de dados MySQL, mas o mesmo possui providers para vários outros bancos. Uma lista bem bacana se encontra disponível da [documentação do Framework](https://docs.microsoft.com/pt-br/ef/core/providers/index){:target="\_blank"}.
+Perceba que neste caso, estamos configurando o EF para conectar com um banco de dados MySQL, mas o mesmo possui providers para vários outros bancos. Uma lista bem bacana se encontra disponível da [documentação do Framework](https://docs.microsoft.com/pt-br/ef/core/providers/index).
 
 Instaladas as dependências do EF, podemos partir para a configuração do Database Context.
 

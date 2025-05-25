@@ -1,10 +1,16 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import { useMDXComponent } from 'next-contentlayer/hooks'
+
 import { format, parseISO } from "date-fns";
 import RecommendedPosts from "src/components/RecommendedPosts";
+import { mdxComponents } from "src/components/MdxComponents";
 
 const BlogPostTemplate = ({post, nextPost, prevPost}) => {
+   console.log(useMDXComponent)
+   const MDXContent = useMDXComponent(post.body.code)
+
    return (
       <>
          <Head>
@@ -28,7 +34,9 @@ const BlogPostTemplate = ({post, nextPost, prevPost}) => {
                <h1 className="text-center my-10 text-4xl font-extralight">
                   {post.title}
                </h1>
-               <article dangerouslySetInnerHTML={{ __html: post.body.html }}></article>
+               <article>
+                  <MDXContent components={mdxComponents} />
+               </article>
             </div>
 
             <RecommendedPosts prevPost={prevPost} nextPost={nextPost} />

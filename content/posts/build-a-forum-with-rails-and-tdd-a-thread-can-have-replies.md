@@ -81,7 +81,7 @@ Fail the test, is exactly what we need because our view is not prepared to show 
 
 Running the tests one more time, we should see a different error message:
 
-`ActionView::Template::Error: undefined method `replies' for #<ForumThread`
+`ActionView::Template::Error: undefined method 'replies' for #<ForumThread`
 
 Rails is telling us that there are no associations between the threads and replies yet, and it makes sense given we just set up the database to every reply has a thread_id, but we didn`t tell the application that. Let`s open the ************app/models/forum_thread.rb************ and fix it.
 
