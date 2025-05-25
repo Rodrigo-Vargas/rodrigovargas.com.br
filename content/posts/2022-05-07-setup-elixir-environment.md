@@ -1,9 +1,9 @@
 ---
    categories: [elixir]
-   publishedAt: '2022-05-07'
-   excerpt:
+   publishedAt: 2022-05-07
+   excerpt: Setup a elixir environment to start development
    locale: en
-   title: Setup a Elixir Development Environment on local nachine
+   title: Setup a Elixir Development Environment on local machine
 ---
 
 We will start updating the apt repository and installing all packages of distro

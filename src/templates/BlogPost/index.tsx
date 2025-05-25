@@ -8,7 +8,6 @@ import RecommendedPosts from "src/components/RecommendedPosts";
 import { mdxComponents } from "src/components/MdxComponents";
 
 const BlogPostTemplate = ({post, nextPost, prevPost}) => {
-   console.log(useMDXComponent)
    const MDXContent = useMDXComponent(post.body.code)
 
    return (

@@ -124,7 +124,7 @@ Para que uma aplicação MVC funcione, ela precisa saber, da onde buscar a infor
 
 Por padrão, sempre o nome do controller será a primeira parte da url, seguido pela view. Por exemplo, se acessarmos a url "/usuarios/exibir/2", o controller se chamará "usuarios" e provavelmente você o achará no arquivo "UsuariosController" dentro da pasta controller. "exibir" será o nome do método dentro desse controller, que chamará uma view cujo nome é exibir.cshtml e estará dentro da pastas "Views/Usuarios", entendeu a lógica? O último parâmetro será repassado ao método exibir como uma string ou int.
 
-Outro item importante de notar é que caso a URL não tenha todos os segmentos, os padrões definidos no template será utilizados. Caso por exemplo, acessarmos "/usuarios", o nome da view será "Index", pois é o valor definido em "/{action=Index}". Caso ainda acessarmos "/", o controller padrão será "Home", e a view padrão será "Index".
+Outro item importante de notar é que caso a URL não tenha todos os segmentos, os padrões definidos no template será utilizados. Caso por exemplo, acessarmos "/usuarios", o nome da view será "Index", pois é o valor definido em ```"/{action=Index}```". Caso ainda acessarmos "/", o controller padrão será "Home", e a view padrão será "Index".
 
 Por padrão, esta convenção nos servirá em quase todos os casos. Mas e quando não quisermos ou pudermos seguir essa convenção? Por exemplo, vamos acessar a página Privacy, definida por padrão no projeto. Repare na URL, a mesma está como "/Home/Privacy". Não é exatamente legal, certo? Poderíamos melhora-la para ser apenas "/Privacy". Para isso poderemos definir uma **rota customizada**
 
