@@ -1,4 +1,3 @@
-import Hero from "../components/Hero";
 import { allPosts, Post } from "contentlayer/generated";
 import HomeCard from "../components/HomeCard";
 
@@ -8,10 +7,9 @@ type HomePageProps = {
 
 const HomePage = ({ posts }: HomePageProps) => {
    return (
-      <>
-         <Hero />
-         <div className="container mt-56 lg:mt-96">
-            <div className="px-12">
+      <div className="w-full">
+         <div className="container">
+            <div className="mx-auto">
                {posts.map((post, index) => {
                   return (
                      <HomeCard key={index} post={post} />
@@ -19,7 +17,7 @@ const HomePage = ({ posts }: HomePageProps) => {
                })}
             </div>
          </div>
-      </>
+      </div>
    );
 };
 
